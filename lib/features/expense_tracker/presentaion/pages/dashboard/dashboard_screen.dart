@@ -146,15 +146,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                           Row(
                                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                             children: [
-                                              _buildBalanceInfoCard(
-                                                title: 'Income',
-                                                amount: '\$ 10,840.00',
-                                                color: Colors.green,
+                                              Expanded(
+                                                child: _buildBalanceInfoCard(
+                                                  title: 'Income',
+                                                  amount: '\$ 10,840.00',
+                                                  color: Colors.green,
+                                                ),
                                               ),
-                                              _buildBalanceInfoCard(
-                                                title: 'Expenses',
-                                                amount: '\$ 1,884.00',
-                                                color: Colors.red,
+                                              Expanded(
+                                                child: _buildBalanceInfoCard(
+                                                  title: 'Expenses',
+                                                  amount: '\$ 1,884.00',
+                                                  color: Colors.red,
+                                                ),
                                               ),
                                             ],
                                           ),
