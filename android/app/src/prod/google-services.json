@@ -28,7 +28,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1041079975484:android:5794d901febcfcb0c18d39",
         "android_client_info": {
-          "package_name": "com.foz.app"
+          "package_name": "com.tracker.app"
         }
       },
       "oauth_client": [],
@@ -47,7 +47,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1041079975484:android:54176979f927418cc18d39",
         "android_client_info": {
-          "package_name": "com.foz.app.stage"
+          "package_name": "com.tracker.app.stage"
         }
       },
       "oauth_client": [],

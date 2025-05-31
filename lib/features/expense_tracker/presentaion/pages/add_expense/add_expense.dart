@@ -168,14 +168,14 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                   controller: _amountController,
                   keyboardType: const TextInputType.numberWithOptions(decimal: true),
                   style: const TextStyle(
-                    fontSize: 24,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Color(0xFF2D3436),
                   ),
                   decoration: const InputDecoration(
                     hintText: '0.00',
                     border: InputBorder.none,
-                    contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                    contentPadding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
                   ),
                   validator: (value) {
                     if (value == null || value.isEmpty) {

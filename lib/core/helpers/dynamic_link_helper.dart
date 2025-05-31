@@ -10,7 +10,7 @@ import 'package:expense_tracker/core/utilities/loading_dialog.dart';
 import '../../features/auth/presentation/manager/user_cubit/user_cubit.dart';
 
 class DynamicLinkHelper {
-  static const String clientBundle = "com.foz.app";
+  static const String clientBundle = "com.tracker.app";
 
   DynamicLinkHelper._();
 

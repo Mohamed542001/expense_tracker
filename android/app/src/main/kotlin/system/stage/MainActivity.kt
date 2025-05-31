@@ -1,4 +1,4 @@
-package com.foz.app.stage
+package com.tracker.app.stage
 
 import io.flutter.embedding.android.FlutterActivity
 

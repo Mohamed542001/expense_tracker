@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 def dartEnvironmentVariables = [
         APP_APP_NAME_EN: 'Foz',
         APP_APP_NAME_AR: 'فوز',
-        APP_ID         : 'com.foz.app.stage',
+        APP_ID         : 'com.tracker.app.stage',
 ]
 if (project.hasProperty('dart-defines')) {
 
@@ -54,7 +54,7 @@ if (keystorePropertiesFile.exists()) {
 }
 android {
 
-    namespace 'com.foz.app.stage'
+    namespace 'com.tracker.app.stage'
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 

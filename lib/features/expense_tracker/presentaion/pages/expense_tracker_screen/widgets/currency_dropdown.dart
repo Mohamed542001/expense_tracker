@@ -15,7 +15,7 @@ class CurrencyDropdown extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      padding: EdgeInsets.symmetric(horizontal: 10),
       decoration: BoxDecoration(
         color: const Color(0xFF6C5CE7).withOpacity(0.1),
         borderRadius: BorderRadius.circular(8),
@@ -23,6 +23,7 @@ class CurrencyDropdown extends StatelessWidget {
       ),
       child: DropdownButtonHideUnderline(
         child: DropdownButton<String>(
+          padding: EdgeInsets.zero,
           value: selectedCurrency,
           icon: const Icon(
             Icons.keyboard_arrow_down,

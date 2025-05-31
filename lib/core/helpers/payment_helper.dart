@@ -7,7 +7,7 @@ class MoyasarPaymentHelper {
 
   MoyasarPaymentHelper({
     this.publishableApiKey = 'pk_test_sQTaqT9CsiKFSFg6ymDPFCXPRs67XVBoLsSiJrZc',
-    this.merchantId = 'merchant.com.foz.app',
+    this.merchantId = 'merchant.com.tracker.app',
     this.storeName = 'Foz',
   });
 
