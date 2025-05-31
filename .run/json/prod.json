@@ -1,0 +1,9 @@
+{
+  "APP_ID": "com.foz.app",
+  "APP_BASE_URL": "https://foz.sa/",
+  "APP_ENV_NAME": "prod",
+  "APP_API": "api/",
+  "APP_APP_NAME_EN": "Foz",
+  "APP_APP_NAME_AR": "Foz",
+  "APP_LOCAL_LOGO": "assets/images/icon.png"
+}
